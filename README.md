@@ -2,7 +2,7 @@
 
 A playful, responsive concept website for a fictional sparkling fruit drink brand. The project explores a simple idea: familiar fruit combinations taking an unexpected turn.
 
-[Live demo](https://calebsingh23-afk.github.io/pop-theory/) · [Style tile](https://calebsingh23-afk.github.io/pop-theory/style-tile.html)
+**Demo only. No live website is published.** Open `index.html` locally, or follow the local preview instructions below.
 
 ![POP THEORY desktop page](desktop.png)
 
