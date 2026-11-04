@@ -1,0 +1,1 @@
+{"name":"pop-theory","version":"1.0.0","private":true,"description":"Fictional sparkling drink concept with original SVG artwork and accessible scroll storytelling","scripts":{"dev":"node server.cjs","start":"node server.cjs","build":"node build.cjs","check":"node --check app.js && node --check content.js"}}

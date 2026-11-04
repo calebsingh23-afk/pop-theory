@@ -1,0 +1,1 @@
+const fs=require('fs');fs.mkdirSync('dist/assets',{recursive:true});for(const file of ['index.html','style-tile.html','style.css','app.js','content.js'])fs.copyFileSync(file,'dist/'+file);for(const file of fs.readdirSync('assets'))fs.copyFileSync('assets/'+file,'dist/assets/'+file);console.log('Static production site prepared in dist/');

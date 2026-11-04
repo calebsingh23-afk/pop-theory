@@ -1,0 +1,3 @@
+const http=require('http'),fs=require('fs'),path=require('path');const root=path.resolve(__dirname);http.createServer((req,res)=>{let name;try{name=decodeURIComponent(new URL(req.url,'http://local').pathname)}catch{res.writeHead(400).end();return}const file=path.resolve(root,'.'+(name==='/'?'/index.html':name));if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return}fs.readFile(file,(err,data)=>{if(err){res.writeHead(404).end('Not found');return}res.setHeader('Content-Type',({'html':'text/html','css':'text/css','js':'text/javascript','svg':'image/svg+xml','png':'image/png'})[path.extname(file).slice(1)]||'application/octet-stream');res.end(data)})}).listen(4389,'127.0.0.1',()=>console.log('POP THEORY: http://127.0.0.1:4389'));
+
+

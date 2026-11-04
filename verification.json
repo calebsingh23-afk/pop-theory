@@ -1,0 +1,64 @@
+[
+  {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "overflow": "passed",
+    "flavors": "passed",
+    "menu": "not applicable",
+    "skip": "passed",
+    "runtime": "passed"
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "overflow": "passed",
+    "flavors": "passed",
+    "menu": "not applicable",
+    "skip": "passed",
+    "runtime": "passed"
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "overflow": "passed",
+    "flavors": "passed",
+    "menu": "passed",
+    "skip": "passed",
+    "runtime": "passed"
+  },
+  {
+    "viewport": [
+      320,
+      568
+    ],
+    "overflow": "passed",
+    "flavors": "passed",
+    "menu": "passed",
+    "skip": "passed",
+    "runtime": "passed"
+  },
+  {
+    "viewport": [
+      844,
+      390
+    ],
+    "overflow": "passed",
+    "flavors": "passed",
+    "menu": "not applicable",
+    "skip": "passed",
+    "runtime": "passed"
+  },
+  {
+    "reducedMotion": "passed including live changes",
+    "keyboardRadios": "passed",
+    "failedMedia": "passed (synthetic image error)",
+    "noJavaScript": "passed",
+    "scroll": "passed jumps/reverse/reload; not physical touch"
+  }
+]
